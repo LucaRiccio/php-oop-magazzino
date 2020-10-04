@@ -12,4 +12,8 @@ class Prodotto {
     $this->prodotto = $_prodotto;
   }
 
+  public function setPrezzo($_prezzo){
+    return $this->prezzo = $_prezzo;
+  }
+
 }
