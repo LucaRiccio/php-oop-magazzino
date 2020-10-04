@@ -16,4 +16,9 @@ class Prodotto {
     return $this->prezzo = $_prezzo;
   }
 
+  public function getPrezzo(){
+    !(empty($this->prezzo)) || die('Non puoi fare il calcolo');
+    return $this->prezzo;
+  }
+
 }
